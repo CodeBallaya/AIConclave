@@ -99,7 +99,7 @@ body {
     float: left;
     font-family: 'Montserrat', sans-serif;
     display: block;
-    color: #1D1D1E;
+    color: #a23;
     text-align: center;
     padding: 24px 16px;
     text-decoration: none;
@@ -269,7 +269,7 @@ h1 {
     height: 300px;
     flex-shrink: 0;
     border-radius: 20px;
-    border: 10px #6A0108;
+    border: 10px #a23;
     margin-top: 120px;
     margin-left: 160px;
 }
@@ -352,7 +352,7 @@ h1 {
 }
 
 .aboutdiv a {
-    background-color: #6A0108;
+    background-color: #a23;
     z-index: 6;
     width: 198px;
     height: 57px;
@@ -370,7 +370,7 @@ h2 {
     text-align: center;
     font-family: 'DM Serif Display';
     padding-left: 30px;
-    color: #6A0108;
+    color: #a23;
     text-emphasis: bold;
     margin-top: 35px;
     padding-bottom: 20px;
@@ -418,7 +418,7 @@ h2 {
 }
 
 .section1 {
-    background-color: #F3EFE3;
+    background-color: #FFF;
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -454,7 +454,7 @@ h2 {
     text-align: center;
     font-family: 'DM Serif Display';
     padding-left: 30px;
-    color: #6A0108;
+    color: #a23;
     text-emphasis: bold;
     padding-top: 10px;
 }
@@ -509,7 +509,7 @@ h2 {
 }
 
 .section11 {
-    background-color: #F3EFE3;
+    background-color: #FFF;
     height: 650px;
     align-items: center;
     padding: 30px;
@@ -540,7 +540,7 @@ h2 {
     /* display: flex; */
     text-align: center;
     align-items: center;
-    background-color: white;
+    background-color: #F3EFE3;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
@@ -548,6 +548,12 @@ h2 {
     height: 450px;
     margin: auto;
 }
+
+
+
+
+
+
 
 .icard img {
     width: 300px;
@@ -558,7 +564,7 @@ h2 {
 
 .icard h5 {
     margin-top: 10px;
-    color: #6A0108;
+    color: #a23;
 }
 
 .icard h6 {
@@ -605,7 +611,7 @@ h2 {
 
 .spcard h5 {
     margin-top: 10px;
-    color: #6A0108;
+    color: #a23;
 }
 
 .spcard h6 {
@@ -689,7 +695,7 @@ h2 {
 .expcard {
     background-color: #F3EFE3;
     height: 300px;
-    width: 550px;
+    width: 400px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -702,7 +708,7 @@ h2 {
     justify-content: center;
     text-align: left;
     margin-top: 15px;
-    padding: 20px;
+    padding: 10px;
     margin-left: 20px;
     border-radius: 20px;
 }
@@ -712,7 +718,7 @@ h2 {
 }
 
 .expname h5 {
-    color: #6A0108;
+    color: #a23;
     font-size: 24px;
     font-weight: 550;
 }
@@ -938,7 +944,7 @@ display: none;
         text-align: center;
         font-family: 'DM Serif Display';
         padding: 2px;
-        color: #6A0108;
+        color: #a23;
         text-emphasis: bold;
         width: 100%;
         margin-bottom: 30px;
@@ -1071,7 +1077,7 @@ display: none;
         padding-top: 4%;
     }
     .expname h5 {
-        color: #6A0108;
+        color: #a23;
         font-size: 24px;
         font-weight: 550;
     }
@@ -1355,7 +1361,7 @@ footer p {
 
 .princicard h5 {
     margin-top: 10px;
-    color: #6A0108;
+    color: #a23;
 }
 
 .princicard h6 {
