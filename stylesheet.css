@@ -1382,6 +1382,8 @@ footer p {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
     overflow: hidden;
     text-align: center;
     padding: 15px;
