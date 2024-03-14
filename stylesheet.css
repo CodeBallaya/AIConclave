@@ -510,7 +510,7 @@ h2 {
 
 .section11 {
     background-color: #F3EFE3;
-    height: 450px;
+    height: 650px;
     align-items: center;
     padding: 30px;
 }
@@ -544,15 +544,15 @@ h2 {
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 10px;
-    max-width: 250px;
-    height: 300px;
+    max-width: 350px;
+    height: 450px;
     margin: auto;
 }
 
 .icard img {
-    width: 130px;
+    width: 300px;
     height: auto;
-    border-radius: 50%;
+    border-radius: 10%;
     margin-bottom: 15px;
 }
 
