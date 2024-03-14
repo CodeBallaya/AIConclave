@@ -533,7 +533,7 @@ h2 {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding-bottom: 0px;
+    padding-bottom: 30px;
 }
 
 .icard {
@@ -1041,7 +1041,7 @@ display: none;
         width: 100%;
     }
     .section7 {
-        height: 680px;
+        height: 1100px;
         width: 100%;
         background-color: white;
         padding: 5px;
@@ -1161,7 +1161,7 @@ display: none;
         margin: 10px;
     }
     .section2 {
-        height: 950px;
+        height: 1800px;
         padding-top: 10px;
         width: 100%;
         display: flex;
@@ -1368,12 +1368,15 @@ footer p {
     color: #6A0108;
     margin-top: 8px;
 }
-
+.section9{
+     align-items:center;
+}
 .panel {
     background-color: #fff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items:center;
     padding: 20px;
 }
 
