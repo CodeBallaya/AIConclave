@@ -677,6 +677,7 @@ h2 {
 }
 .schedule-toggle {
   margin-bottom: 20px;
+  margin-left: 50%;
 }
 
 .schedule-toggle button {
@@ -689,7 +690,7 @@ h2 {
 }
 
 .schedule-toggle button.active {
-  background-color: #333;
+  background-color: #a23;
   color: #fff;
 }
 
@@ -1318,6 +1319,8 @@ display: none;
         background: rgb(225, 225, 225);
         border-radius: calc(var(--line-w) / 2);
     }
+    .schedule-toggle {
+        margin-left: 25%;
 }
 
 footer {
