@@ -1376,7 +1376,7 @@ footer p {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-items:center;
+    align-items:top;
     padding: 20px;
 }
 
