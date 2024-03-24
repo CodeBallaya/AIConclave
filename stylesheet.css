@@ -1016,10 +1016,7 @@ display: none;
     .topnav.responsive {
         position: fixed;
     }
-    .schedule-toggle {
-        margin-bottom: 20px;
-        margin-left: 30%;
-    }
+   
     .topnav a:hover {
         background-color: WHITE;
         color: #a23;
