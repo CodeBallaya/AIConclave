@@ -26,11 +26,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:400,900,900i" rel="stylesheet">
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="script.js" defer></script>
     <title>Modern Website</title>
 </head>
-
+<img src="img/logo.png" alt="Logo" class="custom-cursor" />
 <body>
+    
+
     <!-- Back to top button -->
     <a id="button"></a>
     ​
@@ -43,7 +44,7 @@
                     </div>
                     <a href="#home">HOME</a>
                     <a href="#about">ABOUT</a>
-                    <a href="#keysp">SPEAKERS</a>
+                    <a href="#sp">SPEAKERS</a>
                     <a href="#schedule">SCHEDULE</a>
                     <a href="#team">TEAM</a>
                     <a href="#contact">CONTACT US</a>
@@ -57,6 +58,7 @@
     </header>
 
     <main>
+        
         <!-- <img src="DYP.jpg" alt=""> -->
         <div id="home" class="card">
 
@@ -155,28 +157,34 @@
             </div>
         </div>
     </section>
-    <div class="section11">
+    <div class="section11" id="sp">
         <h2>Chief Guest</h2>
         <h6>A trailblazer in their field, our esteemed Chief Guest brings unparalleled expertise and inspiration.</h6>
-        <div class="icard">
-            <img src="img/5 1.png" alt="Speaker">
-            <h5>Prof. D.B. Phatak - Padma Shri Awardee</h5>
-            <div class="icardcontent">
-                <h6>Professor Emeritus, IIT Bombay and Former Chairman, NIT Agartala
-                </h6>
-                <!--                 <h7 style="font-size: 14px;"></h7> -->
+        
+            <div class="icard">
+                <div class="target-div">
+                    <a href="https://www.linkedin.com/in/deepak-phatak-59b9a588/" target="_blank"><img src="img/5 1.png" alt="Speaker"></a>
+                </div>   
+                    <h5>Prof. D.B. Phatak - Padma Shri Awardee</h5>
+                <div class="icardcontent">
+                    <h6>Professor Emeritus, IIT Bombay and Former Chairman, NIT Agartala</h6>
+                </div>
             </div>
-
-        </div>
     </div>
+    <div class="logo-overlay"></div>
     <div id="EXPspeakers">
-        <h2 id="keysp">Keynote Speakers</h2>
+        <h2 id="keysp" >Keynote Speakers</h2>
         <h6 id="exph">An authority in their field, our keynote speaker brings a wealth of knowledge and inspiration.</h6>
     </div>
     <section class="section7">
 
         <div class="expcard">
-            <img src="img/11.png" alt="" style="width:180px;height:auto;margin-top: 15px;border-radius:8px;">
+            <!-- Add this to your HTML file -->
+            <div class="target-div">
+                <a href="https://www.linkedin.com/in/amit-sethi-590b2a3/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/11.png" alt="" style="width:180px;height:auto;margin-top: 15px;border-radius:8px;">
+                </a>
+              </div>
             <div class="expname">
                 <h5>Prof. Amit Sethi</h5>
                 <!-- <h6 style="color:#6A0108;font-weight: 550;">Guest of Honour</h6> -->
@@ -185,7 +193,11 @@
             </div>
         </div>
         <div class="expcard">
-            <img src="img/6.png" alt="" style="width:180px;height:auto;margin-top: 15px;border-radius:8px;">
+            <div class="target-div">
+                <a href="https://www.linkedin.com/in/mukeshjaincoach/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/6.png" alt="" style="width:180px;height:auto;margin-top: 15px;border-radius:8px;">
+                </a>
+              </div>
             <div class="expname">
                 <h5>Mr. Mukesh Jain</h5>
                 <!-- <h6 style="color:#6A0108;font-weight: 550;">Guest of Honour</h6> -->
@@ -197,7 +209,11 @@
         </div>
 
         <div class="expcard">
-            <img src="img/12.png" alt="" style="width:180px;height:auto;margin-top: 15px;border-radius:8px;">
+            <div class="target-div">
+                <a href="https://www.linkedin.com/in/jibuelias/" target="_blank" rel="noopener noreferrer">
+                    <img src="img/12.png" alt="" style="width:180px;height:auto;margin-top: 15px;border-radius:8px;">
+                </a>
+              </div>
             <div class="expname">
                 <h5>Mr. Jibu Elias</h5>
                 <h6>Country Lead (India), Responsible Computing Challenge 
@@ -213,11 +229,16 @@
     </section>
 
     <section class="section2">
-        <h2>Expert Speakers</h2>
+        <h2>Expert Speakers & Panelists</h2>
         <h6>Experts and Professionals that would be giving insights</h6>
         <div class="cards-container">
             <div class="spcard">
-                <img src="img/9.png" alt="Card Image 2">
+                <div class="target-div">
+                    <a href="https://www.linkedin.com/in/peter-pushparaj-760b9a56/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/9.png" alt="Card Image 2">
+                    </a>
+                  </div>
+
                 <h5>Mr. Peter Pushparaj</h5>
                 <h6>
                     CEO & Director AI Nexus Healthcare India and Sub-continent
@@ -225,14 +246,24 @@
                 <h7></h7>
             </div>
             <div class="spcard">
-                <img src="img/13.png" alt="Card Image 2">
+                <div class="target-div">
+                    <a href="https://www.linkedin.com/in/deepa-naik/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/13.png" alt="Card Image 2">
+
+                    </a>
+                  </div>
                 <h5>Mr. Deepa Naik</h5>
                 <h6>
                     Technology Consultant, sparkNET</h6>
 <!--                 <h7></h7> -->
             </div>
             <div class="spcard">
-                <img src="img/8.png" alt="Card Image 2">
+                <div class="target-div">
+                    <a href="https://www.linkedin.com/in/sudinbaraokar/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/8.png" alt="Card Image 2">
+
+                    </a>
+                  </div>
                 <h5>Mr. Sudin Baraokar</h5>
                 <h6>
                     Global AI & Digital Transformation Advisor, Founder Deep Tech Startups
@@ -240,7 +271,12 @@
 <!--                 <h7></h7> -->
             </div>     
             <div class="spcard">
-                <img src="img/10.png" alt="Card Image 2">
+                <div class="target-div">
+                    <a href="https://www.linkedin.com/in/10008377/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/10.png" alt="Card Image 2">
+
+                    </a>
+                  </div>
                 <h5>Dr. Naina Bandyopadhyay</h5>
                 <h6>
                     Vice President ( AI technology & Delivery) at Findability Sciences an AI product and solution company</h6>
@@ -252,7 +288,12 @@
         <h6>Unveiling Perspectives: A Mosaic of Insights in Engaging Panel Conversations</h6> -->
         <div class="panel">
             <div class="panel-card">
-                <img src="img/7.png" alt="Image 2">
+                <div class="target-div">
+                    <a href="https://www.linkedin.com/in/theamarpanchal/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/7.png" alt="Image 2">
+
+                    </a>
+                  </div>
                 <div class="panel-card-content">
                     <h5 class="panel-heading" style="color:#a23">Dr. Amar Panchal</h5>
                     <h6 class="panel-description" style="color:#6A0108">Panelist</h6>
@@ -262,7 +303,12 @@
                 </div>
             </div>
             <div class="panel-card">
-                <img src="img/15.png" alt="Image 2">
+                <div class="target-div">
+                    <a href="https://www.linkedin.com/in/dinesh-singh-25571624/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/15.png" alt="Image 2">
+
+                    </a>
+                  </div>
                 <div class="panel-card-content">
                     <h5 class="panel-heading" style="color:#a23">Mr. Dinesh Singh</h5>
                     <h6 class="panel-description" style="color:#6A0108">Panelist</h6>
@@ -271,7 +317,12 @@
                 </div>
             </div>
             <div class="panel-card">
-                <img src="img/14.png" alt="Image 2">
+                <div class="target-div">
+                    <a href="https://www.linkedin.com/in/drasimtewari/" target="_blank" rel="noopener noreferrer">
+                        <img src="img/14.png" alt="Image 2">
+
+                    </a>
+                  </div>
                 <div class="panel-card-content">
                     <h5 class="panel-heading" style="color:#a23">Dr. Asim Tewari</h5>
                     <h6 class="panel-description" style="color:#6A0108">Panelist</h6>
@@ -334,9 +385,10 @@
             <img src="img/CSI LOGO.png" alt="" id="about_ce_img" style="border: 3px solid #6A0108">
         </div> -->
     </section>
-    <div class="team-section" id="team" style="padding: 20px;text-align: center;">
+    <section ></section>
+    <div class="team-section"  style="padding: 20px;text-align: center;">
         <!--         <h2>Organizing Team</h2> -->
-        <h4 style="color:#a23;font-weight: 700;font-family: 'DM Serif Display';"> Convenor </h4>
+        <h4 id="team" style="color:#a23;font-weight: 700;font-family: 'DM Serif Display';"> Convenor </h4>
         <div class="team-leader" style="font-size:14px;font-weight:bold;">
             <h5>Prof. Dr. Vidhate Amarsinh </h5>
             Prof. & Head, Department of Computer Engg & Chairman - T&P Cell, RAIT, DYPU, Navi Mumbai.
@@ -500,37 +552,11 @@
 
         });
     </script> -->
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const day1Btn = document.getElementById('day1-btn');
-            const day2Btn = document.getElementById('day2-btn');
-            const day1Schedule = document.getElementById('day1-schedule');
-            const day2Schedule = document.getElementById('day2-schedule');
+    <!-- <script>
+       
+    </script> -->
+        <script src="script.js"></script>
 
-            day1Btn.addEventListener('click', function() {
-                day1Btn.classList.add('active');
-                day2Btn.classList.remove('active');
-                day1Schedule.classList.add('active');
-                day2Schedule.classList.remove('active');
-            });
-
-            day2Btn.addEventListener('click', function() {
-                day2Btn.classList.add('active');
-                day1Btn.classList.remove('active');
-                day2Schedule.classList.add('active');
-                day1Schedule.classList.remove('active');
-            });
-        });
-
-        function myFunction() {
-            var x = document.getElementById("myTopnav");
-            if (x.className === "topnav ") {
-                x.className += " responsive ";
-            } else {
-                x.className = "topnav ";
-            }
-        }
-    </script>
 </body>
 
 </html>
