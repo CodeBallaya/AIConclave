@@ -128,7 +128,7 @@ body {
 .cardinfo span {
     font-size: 16px;
     margin: 5px;
-    margin-top: 5px;
+    margin-top: 4px;
     margin-bottom: 0px;
 }
 
@@ -239,7 +239,7 @@ main img {
 #location{
     background-color: #f2f2f2;
     z-index: 6;
-    padding: 3px 25px 15px 30px;
+    padding: 15px 25px 15px 30px;
     margin: 5px;
     border-radius: 15px;
     color: #a23;
